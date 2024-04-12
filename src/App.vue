@@ -20,13 +20,20 @@ onErrorCaptured((err, instance, info) => {
     >
       menu
     </button>
-    <nav id="mainNav" v-show="menuIsOpen">
-      <ul>
-        <li><a href="#"></a> item1</li>
-        <li><a href="#"></a> item2</li>
-        <li><a href="#"></a> item3</li>
-      </ul>
-    </nav>
+    <Transition
+      class="transition-transform duration-500"
+      enter-from-class="-translate-x-full"
+      enter-to-class="translate-x-0"
+      leave-active-class="-translate-x-full"
+    >
+      <nav id="mainNav" v-show="menuIsOpen">
+        <ul>
+          <li><a href="#"></a> item1</li>
+          <li><a href="#"></a> item2</li>
+          <li><a href="#"></a> item3</li>
+        </ul>
+      </nav>
+    </Transition>
   </header>
   <RouterView v-slot="{ Component }">
     <Suspense>
