@@ -19,7 +19,7 @@ onErrorCaptured((err, instance, info) => {
     >
       menu
     </button>
-    <nav id="mainNav">
+    <nav id="mainNav" v-show="menuIsOpen">
       <ul>
         <li><a href="#"></a> item1</li>
         <li><a href="#"></a> item2</li>
