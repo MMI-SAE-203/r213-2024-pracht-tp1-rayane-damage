@@ -6,14 +6,14 @@
   <h1 class="text-2xl">Bonjour monde !</h1>
   <section>
     <button class="text-xl">bouton 1</button>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius natus nesciunt provident odit tempore dicta praesentium eos, ad quidem iusto magni. Odit, ipsum recusandae. Iusto, cumque sed. Debitis, cum nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, alias sint? Ex blanditiis quam voluptas aut error, rerum ducimus exercitationem provident nemo eum, laborum tempora debitis molestias nulla, voluptatum dolores.</p>
   </section>
   <section>
     <button class="text-xl">bouton 2</button>
-    <p>Aliquid sit non maiores exercitationem nemo, fugit accusantium autem temporibus in consequatur ullam! Nesciunt aliquid, aut temporibus doloremque consectetur nam illo nulla! Consectetur porro sequi mollitia ad ratione? Vel, nisi!</p>
+    <p>Quae illo facere tempore placeat! Exercitationem dolorem sint id placeat! Id porro eveniet saepe est neque. Quidem, at laborum? Eos cum dolor quidem temporibus voluptas nam ab perferendis maxime voluptatibus.</p>
   </section>
   <section>
     <button class="text-xl">bouton 3</button>
-    <p>Itaque laborum aliquid perferendis sequi nesciunt eum assumenda ex magni quos tempora, vitae corrupti adipisci, incidunt expedita reiciendis, mollitia rem exercitationem odit corporis! Praesentium dolore perferendis iure, id iste totam!</p>
+    <p>Perspiciatis ducimus ex mollitia impedit architecto, aperiam dolore deserunt corrupti, velit veritatis earum ipsum tempora quae temporibus voluptatibus unde sint commodi totam rem alias sit voluptatem consectetur debitis? Recusandae, voluptatem?</p>
   </section>
 </template>
