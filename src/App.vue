@@ -8,13 +8,21 @@ onErrorCaptured((err, instance, info) => {
 })
 </script>
 
+
 <template>
   <header>
-    <nav>
+    <button
+      aria-controls="mainNav"
+      aria-expanded="true"
+      class="rounded-full border-2 border-red-600 bg-red-300 px-2"
+    >
+      menu
+    </button>
+    <nav id="mainNav">
       <ul>
-        <li>
-          <RouterLink to="/" class="text-red-500 underline"> Accueil </RouterLink>
-        </li>
+        <li><a href="#">item1</a></li>
+        <li><a href="#">item2</a></li>
+        <li><a href="#">item3</a></li>
       </ul>
     </nav>
   </header>
